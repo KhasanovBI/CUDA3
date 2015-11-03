@@ -1,0 +1,15 @@
+./neg/n10.bmp
+./neg/n11.bmp
+./neg/n12.bmp
+./neg/n13.bmp
+./neg/n14.bmp
+./neg/n15.bmp
+./neg/n1.bmp
+./neg/n2.bmp
+./neg/n3.bmp
+./neg/n4.bmp
+./neg/n5.bmp
+./neg/n6.bmp
+./neg/n7.bmp
+./neg/n8.bmp
+./neg/n9.bmp

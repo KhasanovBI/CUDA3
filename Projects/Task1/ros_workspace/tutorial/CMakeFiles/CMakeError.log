@@ -1,0 +1,106 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/cuda/CUDA2/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2324964308/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2324964308.dir/build.make CMakeFiles/cmTryCompileExec2324964308.dir/build
+make[1]: Entering directory `/home/cuda/CUDA2/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cuda/CUDA2/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2324964308.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2324964308.dir/CheckSymbolExists.c.o   -c /home/cuda/CUDA2/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2324964308
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2324964308.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2324964308.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2324964308 -rdynamic 
+CMakeFiles/cmTryCompileExec2324964308.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/cuda/CUDA2/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec2324964308] Error 1
+make: *** [cmTryCompileExec2324964308/fast] Error 2
+
+File /home/cuda/CUDA2/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/cuda/CUDA2/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3002526682/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3002526682.dir/build.make CMakeFiles/cmTryCompileExec3002526682.dir/build
+make[1]: Entering directory `/home/cuda/CUDA2/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/cuda/CUDA2/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3002526682.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3002526682.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3002526682
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3002526682.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3002526682.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3002526682 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: Leaving directory `/home/cuda/CUDA2/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3002526682] Error 1
+make: *** [cmTryCompileExec3002526682/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/bulat/temp/CUDA2_OpenCV_ROS/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec675703757/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec675703757.dir/build.make CMakeFiles/cmTryCompileExec675703757.dir/build
+make[1]: Вход в каталог `/home/bulat/temp/CUDA2_OpenCV_ROS/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bulat/temp/CUDA2_OpenCV_ROS/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec675703757.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec675703757.dir/CheckSymbolExists.c.o   -c /home/bulat/temp/CUDA2_OpenCV_ROS/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec675703757
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec675703757.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec675703757.dir/CheckSymbolExists.c.o  -o cmTryCompileExec675703757 -rdynamic 
+CMakeFiles/cmTryCompileExec675703757.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec675703757] Ошибка 1
+make[1]: Выход из каталога `/home/bulat/temp/CUDA2_OpenCV_ROS/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec675703757/fast] Ошибка 2
+
+File /home/bulat/temp/CUDA2_OpenCV_ROS/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/bulat/temp/CUDA2_OpenCV_ROS/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3751976707/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3751976707.dir/build.make CMakeFiles/cmTryCompileExec3751976707.dir/build
+make[1]: Вход в каталог `/home/bulat/temp/CUDA2_OpenCV_ROS/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/bulat/temp/CUDA2_OpenCV_ROS/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3751976707.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3751976707.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3751976707
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3751976707.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3751976707.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3751976707 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec3751976707] Ошибка 1
+make[1]: Выход из каталога `/home/bulat/temp/CUDA2_OpenCV_ROS/Project/ros_workspace/tutorial/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec3751976707/fast] Ошибка 2
+
+
