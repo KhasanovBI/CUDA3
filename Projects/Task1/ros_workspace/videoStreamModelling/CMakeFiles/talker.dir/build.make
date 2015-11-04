@@ -34,11 +34,14 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bulat/CUDA3.1
+CMAKE_SOURCE_DIR = /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bulat/CUDA3.1
+CMAKE_BINARY_DIR = /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling
 
 # Include any dependencies generated for this target.
 include CMakeFiles/talker.dir/depend.make
@@ -79,17 +82,17 @@ CMakeFiles/talker.dir/src/talker.cpp.o: /opt/ros/jade/share/rospack/package.xml
 CMakeFiles/talker.dir/src/talker.cpp.o: /opt/ros/jade/share/roslib/package.xml
 CMakeFiles/talker.dir/src/talker.cpp.o: /opt/ros/jade/share/pluginlib/package.xml
 CMakeFiles/talker.dir/src/talker.cpp.o: /opt/ros/jade/share/image_transport/package.xml
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bulat/CUDA3.1/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/talker.dir/src/talker.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/talker.dir/src/talker.cpp.o -c /home/bulat/CUDA3.1/src/talker.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/talker.dir/src/talker.cpp.o -c /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling/src/talker.cpp
 
 CMakeFiles/talker.dir/src/talker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/talker.dir/src/talker.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bulat/CUDA3.1/src/talker.cpp > CMakeFiles/talker.dir/src/talker.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling/src/talker.cpp > CMakeFiles/talker.dir/src/talker.cpp.i
 
 CMakeFiles/talker.dir/src/talker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/talker.dir/src/talker.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bulat/CUDA3.1/src/talker.cpp -o CMakeFiles/talker.dir/src/talker.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling/src/talker.cpp -o CMakeFiles/talker.dir/src/talker.cpp.s
 
 CMakeFiles/talker.dir/src/talker.cpp.o.requires:
 .PHONY : CMakeFiles/talker.dir/src/talker.cpp.o.requires
@@ -125,6 +128,6 @@ CMakeFiles/talker.dir/clean:
 .PHONY : CMakeFiles/talker.dir/clean
 
 CMakeFiles/talker.dir/depend:
-	cd /home/bulat/CUDA3.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bulat/CUDA3.1 /home/bulat/CUDA3.1 /home/bulat/CUDA3.1 /home/bulat/CUDA3.1 /home/bulat/CUDA3.1/CMakeFiles/talker.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling/CMakeFiles/talker.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/talker.dir/depend
 

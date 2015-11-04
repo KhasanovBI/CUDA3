@@ -34,11 +34,14 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bulat/CUDA3.1
+CMAKE_SOURCE_DIR = /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bulat/CUDA3.1
+CMAKE_BINARY_DIR = /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling
 
 # Utility rule file for test-results.
 
@@ -46,7 +49,7 @@ CMAKE_BINARY_DIR = /home/bulat/CUDA3.1
 include CMakeFiles/test-results.dir/progress.make
 
 CMakeFiles/test-results:
-	/opt/ros/jade/share/rosunit/cmake/../scripts/summarize_results.py --nodeps CUDA3.1
+	/opt/ros/jade/share/rosunit/cmake/../scripts/summarize_results.py --nodeps videoStreamModelling
 
 test-results: CMakeFiles/test-results
 test-results: CMakeFiles/test-results.dir/build.make
@@ -61,6 +64,6 @@ CMakeFiles/test-results.dir/clean:
 .PHONY : CMakeFiles/test-results.dir/clean
 
 CMakeFiles/test-results.dir/depend:
-	cd /home/bulat/CUDA3.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bulat/CUDA3.1 /home/bulat/CUDA3.1 /home/bulat/CUDA3.1 /home/bulat/CUDA3.1 /home/bulat/CUDA3.1/CMakeFiles/test-results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling/CMakeFiles/test-results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test-results.dir/depend
 

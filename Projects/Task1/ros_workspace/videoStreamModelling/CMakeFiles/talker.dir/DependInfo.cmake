@@ -4,13 +4,13 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bulat/CUDA3.1/src/talker.cpp" "/home/bulat/CUDA3.1/CMakeFiles/talker.dir/src/talker.cpp.o"
+  "/home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling/src/talker.cpp" "/home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling/CMakeFiles/talker.dir/src/talker.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 SET(CMAKE_TARGET_DEFINITIONS
-  "ROS_PACKAGE_NAME=\"CUDA3.1\""
+  "ROS_PACKAGE_NAME=\"videoStreamModelling\""
   )
 
 # Targets to which this target links.

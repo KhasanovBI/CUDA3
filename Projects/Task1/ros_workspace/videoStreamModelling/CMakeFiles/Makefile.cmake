@@ -128,7 +128,7 @@ SET(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 SET(CMAKE_MAKEFILE_PRODUCTS
-  "catkin_generated/stamps/CUDA3.1/package.xml.stamp"
+  "catkin_generated/stamps/videoStreamModelling/package.xml.stamp"
   "catkin_generated/installspace/_setup_util.py"
   "catkin_generated/installspace/env.sh"
   "catkin_generated/installspace/setup.bash"
@@ -137,7 +137,7 @@ SET(CMAKE_MAKEFILE_PRODUCTS
   "catkin_generated/installspace/.rosinstall"
   "catkin_generated/generate_cached_setup.py"
   "catkin_generated/env_cached.sh"
-  "catkin_generated/stamps/CUDA3.1/interrogate_setup_dot_py.py.stamp"
+  "catkin_generated/stamps/videoStreamModelling/interrogate_setup_dot_py.py.stamp"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "gtest/CMakeFiles/CMakeDirectoryInformation.cmake"
   )

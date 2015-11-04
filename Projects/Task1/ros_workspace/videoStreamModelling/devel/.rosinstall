@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/bulat/CUDA3.1/devel/setup.sh
+    local-name: /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling/devel/setup.sh

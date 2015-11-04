@@ -4,19 +4,19 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/usr/src/gtest/src/gtest_main.cc" "/home/bulat/CUDA3.1/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+  "/usr/src/gtest/src/gtest_main.cc" "/home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 SET(CMAKE_TARGET_DEFINITIONS
   "GTEST_CREATE_SHARED_LIBRARY=1"
-  "ROS_PACKAGE_NAME=\"CUDA3.1\""
+  "ROS_PACKAGE_NAME=\"videoStreamModelling\""
   )
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/bulat/CUDA3.1/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # The include file search paths:

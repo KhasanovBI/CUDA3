@@ -38,19 +38,22 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bulat/CUDA3.1
+CMAKE_SOURCE_DIR = /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bulat/CUDA3.1
+CMAKE_BINARY_DIR = /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling
 
 #=============================================================================
 # Targets provided globally by CMake.
 
 # Special rule for the target edit_cache
 edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running interactive CMake command-line interface..."
-	/usr/bin/cmake -i .
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
+	/usr/bin/cmake-gui -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -110,9 +113,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bulat/CUDA3.1/CMakeFiles /home/bulat/CUDA3.1/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling/CMakeFiles /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bulat/CUDA3.1/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

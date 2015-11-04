@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/bulat/CUDA3.1/src/talker.cpp
+/home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling/src/talker.cpp
 ros/ros.h
 -
 image_transport/image_transport.h
@@ -15,7 +15,7 @@ opencv2/highgui/highgui.hpp
 -
 cv_bridge/cv_bridge.h
 -
-sstream
+fstream
 -
 
 /opt/ros/jade/include/XmlRpcDecl.h

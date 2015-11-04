@@ -34,11 +34,14 @@ RM = /usr/bin/cmake -E remove -f
 # Escaping for special characters.
 EQUALS = =
 
+# The program to use to edit the cache.
+CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
+
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bulat/CUDA3.1
+CMAKE_SOURCE_DIR = /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bulat/CUDA3.1
+CMAKE_BINARY_DIR = /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling
 
 # Utility rule file for download_extra_data.
 
@@ -60,6 +63,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/bulat/CUDA3.1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bulat/CUDA3.1 /home/bulat/CUDA3.1 /home/bulat/CUDA3.1 /home/bulat/CUDA3.1 /home/bulat/CUDA3.1/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling /home/bulat/CUDA3/Projects/Task1/ros_workspace/videoStreamModelling/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 
